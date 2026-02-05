@@ -1,0 +1,17 @@
+
+const earthquakes = [
+  {tarih:"1970 Gediz", bolge:"Kütahya", mw:7.2, kayip:1086},
+  {tarih:"1976 Çaldıran", bolge:"Van", mw:7.5, kayip:4000},
+  {tarih:"1999 Marmara", bolge:"Kocaeli", mw:7.4, kayip:17000},
+  {tarih:"2011 Van", bolge:"Van", mw:7.2, kayip:604},
+  {tarih:"2020 Elazığ", bolge:"Elazığ", mw:6.7, kayip:41},
+  {tarih:"2023 Kahramanmaraş", bolge:"Kahramanmaraş", mw:7.7, kayip:50000}
+];
+
+
+const table = document.getElementById("earthquakeTable");
+table.innerHTML = "<tr><th>Tarih</th><th>Bölge</th><th>Büyüklük</th><th>Can Kaybı</th></tr>";
+earthquakes.forEach(eq => {
+  table.innerHTML += `<tr><td>${eq.tarih}</td><td>${eq.bolge}</td><td>${eq.mw}</td><td>${eq.kayip}</td></tr>`;
+});
+
