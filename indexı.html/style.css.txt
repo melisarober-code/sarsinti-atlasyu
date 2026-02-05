@@ -1,9 +1,0 @@
-body { font-family: Arial, sans-serif; margin:0; background:#f4f4f4; }
-header { background:#b71c1c; color:white; text-align:center; padding:20px; }
-nav { background:#333; text-align:center; padding:10px; }
-nav a { color:white; margin:0 15px; text-decoration:none; }
-section { padding:20px; }
-table { width:100%; border-collapse:collapse; }
-th, td { border:1px solid #ccc; padding:8px; }
-th { background:#e0e0e0; }
-footer { background:#333; color:white; text-align:center; padding:15px; }
